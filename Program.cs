@@ -1,15 +1,19 @@
-﻿class Program
+﻿class Pessoa
+{
+    public string Nome;
+}
+
+class Program
 {
     static void Main()
     {
-        int num1 = 10;
-        int num2 = num1;
+        Pessoa p1 = new Pessoa();
+        p1.Nome = "Maria";
 
-        num2 = 45;
+        Pessoa p2 = p1;
 
-        Console.WriteLine($"O número 1 é: {num1}");
-        Console.WriteLine($"O número 2 é: {num2}");
+        p2.Nome = "Lilian";
 
+        Console.WriteLine(p1.Nome);
     }
-
 }
