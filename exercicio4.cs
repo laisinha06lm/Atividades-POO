@@ -13,7 +13,7 @@
         }
         else
         {
-            Console.WriteLine("Número inválido");
+            Console.WriteLine("Entrada inválida. Digite um número válido.");
         }
     }
 }
