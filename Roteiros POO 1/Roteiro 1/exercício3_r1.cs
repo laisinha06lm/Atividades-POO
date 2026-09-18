@@ -7,7 +7,7 @@
     public void ExibirDados()
     {
         Console.WriteLine($"Nome do produto: {Nome}");
-        Console.WriteLine($"Preço do produto: {Preco}");
+        Console.WriteLine($"Preço do produto: {Preco:C}");
         Console.WriteLine($"Quantidade em estoque: {Quantidade}");
     }
 
