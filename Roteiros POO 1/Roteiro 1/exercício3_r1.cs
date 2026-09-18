@@ -28,7 +28,7 @@ public class Program
         produto1.Quantidade = 10;
         produto1.ExibirDados();
         decimal valor_total1 = produto1.CalcularValorTotal();
-        Console.WriteLine($"O valor total do produto {produto1.Nome} é: {valor_total1}");
+        Console.WriteLine($"O valor total do produto {produto1.Nome} é: {valor_total1:C}");
 
         Produto produto2 = new Produto();
         produto2.Nome = "Calça";
@@ -36,7 +36,7 @@ public class Program
         produto2.Quantidade = 5;
         produto2.ExibirDados();
         decimal valor_total2 = produto2.CalcularValorTotal();
-        Console.WriteLine($"O valor total do produto {produto2.Nome} é: {valor_total2}");
+        Console.WriteLine($"O valor total do produto {produto2.Nome} é: {valor_total2:C}");
 
         Produto produto3 = new Produto();
         produto3.Nome = "Tênis";
@@ -44,7 +44,7 @@ public class Program
         produto3.Quantidade = 3;
         produto3.ExibirDados();
         decimal valor_total3 = produto3.CalcularValorTotal();
-        Console.WriteLine($"O valor total do produto {produto3.Nome} é: {valor_total3}");
+        Console.WriteLine($"O valor total do produto {produto3.Nome} é: {valor_total3:C}");
     
     }
 }
